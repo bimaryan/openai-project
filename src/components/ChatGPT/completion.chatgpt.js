@@ -56,7 +56,7 @@ const Completion = () => {
             |
 
           */}
-          <Information />
+          {/*<Information />*/}
 
           {/*
 
@@ -68,7 +68,7 @@ const Completion = () => {
             
           */}
 
-          {/* {chatLog.map((log, i) => (
+          {chatLog.map((log, i) => (
             <>
               {log.user === "me" && (
                 <div
@@ -103,7 +103,7 @@ const Completion = () => {
                 </div>
               )}
             </>
-          ))} */}
+          ))}
           {loading && (
             <div className="relative">
               <div
@@ -139,7 +139,7 @@ const Completion = () => {
               // |
               // |
               //
-              // onClick={generateCompletion}
+              onClick={generateCompletion}
             >
               Send
             </button>
@@ -158,8 +158,8 @@ const Completion = () => {
             // |
             // |
             //
-            disabled
-            readOnly
+            // disabled
+            // readOnly
           />
         </div>
       </div>

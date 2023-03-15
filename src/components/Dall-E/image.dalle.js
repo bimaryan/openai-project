@@ -86,7 +86,7 @@ const Image = () => {
             |
 
           */}
-          <Information />
+          {/*<Information />*/}
 
           {/*
 
@@ -98,7 +98,7 @@ const Image = () => {
             
           */}
 
-          {/* {chatLog.map((d, i) => (
+          {chatLog.map((d, i) => (
             <>
               {d.user === "me" && (
                 <div
@@ -146,7 +146,7 @@ const Image = () => {
                 </div>
               )}
             </>
-          ))} */}
+          ))}
           {loading && (
             <div className="relative">
               <div
@@ -183,7 +183,7 @@ const Image = () => {
                 // |
                 // |
                 //
-                // onClick={generateSurprise}
+                onClick={generateSurprise}
               >
                 Surprise me
               </button>
@@ -203,7 +203,7 @@ const Image = () => {
                 // |
                 // |
                 //
-                // onClick={generateImage}
+                onClick={generateImage}
               >
                 Generate
               </button>
@@ -222,8 +222,8 @@ const Image = () => {
               // |
               // |
               //
-              disabled
-              readOnly
+              // disabled
+              // readOnly
             />
           </div>
         )}

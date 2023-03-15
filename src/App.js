@@ -46,7 +46,7 @@ const App = () => {
                 }
               />
               <Route path="/question" element={<FAQ />} />
-              <Route path="/demo" element={<Demo />} />
+              <Route path="" element={<Demo />} />
             </Routes>
           </main>
         </div>
